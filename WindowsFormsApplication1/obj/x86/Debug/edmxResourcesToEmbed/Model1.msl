@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="STUDModelStoreContainer" CdmEntityContainer="STUDEntities">
+    <EntitySetMapping Name="PREDMET">
+      <EntityTypeMapping TypeName="STUDModel.PREDMET">
+        <MappingFragment StoreEntitySet="PREDMET">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IME" ColumnName="IME" />
+          <ScalarProperty Name="ECTS" ColumnName="ECTS" />
+          <ScalarProperty Name="OCJENA" ColumnName="OCJENA" />
+          <ScalarProperty Name="AKGODINA" ColumnName="AKGODINA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

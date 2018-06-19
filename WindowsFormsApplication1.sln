@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+VisualStudioVersion = 10.0.40219.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeApp", "WindowsFormsApplication1\GradeApp.csproj", "{41CAD67E-CA7F-4D28-9073-48E1C9B7162B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41CAD67E-CA7F-4D28-9073-48E1C9B7162B}.Debug|x86.ActiveCfg = Debug|x86
+		{41CAD67E-CA7F-4D28-9073-48E1C9B7162B}.Debug|x86.Build.0 = Debug|x86
+		{41CAD67E-CA7F-4D28-9073-48E1C9B7162B}.Release|x86.ActiveCfg = Release|x86
+		{41CAD67E-CA7F-4D28-9073-48E1C9B7162B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

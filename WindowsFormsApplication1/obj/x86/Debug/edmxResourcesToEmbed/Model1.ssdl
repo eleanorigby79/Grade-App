@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="STUDModel.Store" Alias="Self" Provider="IBM.Data.DB2" ProviderManifestToken="DB2/NT64, 09.07.0004, 473759, 0" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="STUDModelStoreContainer">
+    <EntitySet Name="PREDMET" EntityType="STUDModel.Store.PREDMET" store:Type="Tables" Schema="STUD" />
+  </EntityContainer>
+  <EntityType Name="PREDMET">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="smallint" Nullable="false" />
+    <Property Name="IME" Type="varchar" Nullable="false" MaxLength="256" />
+    <Property Name="ECTS" Type="smallint" Nullable="false" />
+    <Property Name="OCJENA" Type="smallint" Nullable="false" />
+    <Property Name="AKGODINA" Type="smallint" Nullable="false" />
+  </EntityType>
+</Schema>
